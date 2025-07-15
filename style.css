@@ -64,6 +64,38 @@ footer {
     background: #1e293b;
     color: #94a3b8;
 }
+.project-card {
+    display: flex;
+    background: #334155;
+    border-radius: 10px;
+    margin: 20px 0;
+    overflow: hidden;
+    color: white;
+}
+
+.project-card img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.project-card div {
+    padding: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #38bdf8;
+    color: black;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card a:hover {
+    background: #0ea5e9;
+    color: white;
+}
 
 .social-icons img {
     width: 30px;
